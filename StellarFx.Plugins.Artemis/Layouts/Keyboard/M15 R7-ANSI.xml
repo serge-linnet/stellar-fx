@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>M15 R7-ANSI</Name>
+  <Description>M15 R7-ANSI</Description>
+  <Author>https://github.com/serge-linnet</Author>
+  <Type>Keyboard</Type>
+  <Vendor>Alienware</Vendor>
+  <Model>M15 R7</Model>
+  <Width>300</Width>
+  <Height>105</Height>
+  <LedUnitWidth>16</LedUnitWidth>
+  <LedUnitHeight>16</LedUnitHeight>
+  <Leds>
+    <Led Id="Keyboard_Escape">
+      <X>1.2</X>
+      <Y>1</Y>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Escape.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F1">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F1.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F2">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F2.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F3">
+      <X>+3</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F3.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F4">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F4.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F5">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F5.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F6">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F6.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F7">
+      <X>+3</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F7.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F8">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F8.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F9">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F9.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F10">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F10.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F11">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F11.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F12">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F12.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Num7">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="PrintScreen.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Num1">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="End.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_NumComma">
+      <X>+2.7</X>
+      <Height>.6</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Pause_Break.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_GraveAccentAndTilde">
+      <X>1.2</X>
+      <Y>+2.7</Y>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Grave_Tilde.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_1">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="1_ExclamationMark.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_2">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="2_At.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_3">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="3_Hash.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_4">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="4_Dollar.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_5">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="5_Percent.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_6">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="6_Caret.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_7">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="7_Ampersand.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_8">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="8_Asterisk.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_9">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="9_BracketLeft.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_0">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="0_BracketRight.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_MinusAndUnderscore">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Dash_Underscore.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_EqualsAndPlus">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Plus_Equals.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Backspace">
+      <X>+2.85</X>
+      <Width>2.2</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Backspace.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Custom1">
+      <X>+2.7</X>
+    </Led>
+    <Led Id="Keyboard_Tab">
+      <X>1.2</X>
+      <Y>+2.7</Y>
+      <Width>1.6</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Tab.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Q">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Q.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_W">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="W.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_E">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="E.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_R">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="R.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_T">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="T.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Y">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Y.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_U">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="U.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_I">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="I.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_O">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="O.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_P">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="P.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_BracketLeft">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="SquareBracketLeft_CurlyBracketLeft.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_BracketRight">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="SquareBracketRight_CurlyBracketRight.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Backslash">
+      <X>+2.7</X>
+      <Width>1.6</Width>
+      <Height>1</Height>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Pipe_Backslash.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_MediaMute">
+      <X>+2.7</X>
+    </Led>
+    <Led Id="Keyboard_CapsLock">
+      <X>1.2</X>
+      <Y>+2.7</Y>
+      <Width>1.9</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="CapsLock.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_A">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="A.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_S">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="S.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_D">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="D.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_F">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="F.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_G">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="G.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_H">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="H.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_J">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="J.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_K">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="K.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_L">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="L.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_SemicolonAndColon">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Colon_Semicolon.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_ApostropheAndDoubleQuote">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="SingleQuote_DoubleQuote.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Enter">
+      <X>+2.7</X>
+      <Width>2.5</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="US_Enter.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_MediaVolumeUp">
+      <X>+2.7</X>
+    </Led>
+    <Led Id="Keyboard_LeftShift">
+      <X>1.2</X>
+      <Y>+2.7</Y>
+      <Width>2.5</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="LeftShift.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Z">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="C.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_X">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="V.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_C">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="B.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_V">
+      <X>+2.7</X>
+    </Led>
+    <Led Id="Keyboard_B">
+      <X>+2.7</X>
+    </Led>
+    <Led Id="Keyboard_N">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="N.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_M">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="M.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_CommaAndLessThan">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Comma_GreaterThan.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_PeriodAndBiggerThan">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Period_LessThan.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_SlashAndQuestionMark">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="QuestionMark_Slash.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_RightShift">
+      <X>+2.7</X>
+      <Width>1.9</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="RightShift.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Num8">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="CaretUp.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_MediaVolumeDown">
+      <X>+2.7</X>
+    </Led>
+    <Led Id="Keyboard_LeftCtrl">
+      <X>1.2</X>
+      <Y>+2.7</Y>
+      <Width>1.35</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Control.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Function">
+      <X>+2.7</X>
+      <Width>1</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Windows.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_LeftGui">
+      <X>+2.7</X>
+      <Width>1</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Alt.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_LeftAlt">
+      <X>+2.7</X>
+    </Led>
+    <Led Id="Keyboard_Space">
+      <X>+2.7</X>
+      <Width>5.7</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Space.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_RightAlt">
+      <X>+2.7</X>
+      <Width>1</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Alt.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_WinLock">
+      <X>+2.7</X>
+      <Width>1</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Windows.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_RightCtrl">
+      <X>+2.7</X>
+      <Width>1.85</Width>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="Control.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Num4">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="CaretLeft.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Num2">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="CaretDown.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+    <Led Id="Keyboard_Num6">
+      <X>+2.7</X>
+      <CustomData>
+        <LogicalLayouts>
+          <LogicalLayout Name="DE" Image="CaretRight.png" />
+          <LogicalLayout Image="" Name="US" />
+        </LogicalLayouts>
+      </CustomData>
+    </Led>
+  </Leds>
+  <CustomData>
+    <DeviceImage>alienware-m15-r7.png</DeviceImage>
+  </CustomData>
+</Device>

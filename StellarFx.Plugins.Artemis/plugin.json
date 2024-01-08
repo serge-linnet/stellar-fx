@@ -1,0 +1,12 @@
+﻿{
+  "Guid": "AFA75886-7145-4139-9AA8-2967D3886E12",
+  "Api": "1.0",
+  "Name": "Alienware M15 R7",
+  "Icon": "Resources/logo.png",
+  "Author": "https://github.com/serge-linnet",
+  "Repository": "https://github.com/serge-linnet/stellar-fx",
+  "Description": "LED control for Alienware M15 R7",
+  "Version": "0.1",
+  "Main": "StellarFx.Plugins.Artemis.dll",
+  "AutoEnableFeatures": false
+} 

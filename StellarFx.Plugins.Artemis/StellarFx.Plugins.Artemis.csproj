@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU;x64</Platforms>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="ArtemisRGB.Core" Version="1.2023.1017.2" />
+		<PackageReference Include="RGB.NET.Core" Version="2.0.0-prerelease.131" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\StellarFx.LightFx\StellarFx.LightFx.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Layouts\Keyboard\alienware-m15-r7.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Layouts\Keyboard\M15 R7-ANSI.xml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="plugin.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Resources\logo.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StellarFx.App", "StellarFx.App\StellarFx.App.csproj", "{25EACC66-BA43-4848-B8FD-9D6F619E50C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StellarFx.LightFx", "StellarFx.LightFx\StellarFx.LightFx.csproj", "{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StellarFx.Plugins.Artemis", "StellarFx.Plugins.Artemis\StellarFx.Plugins.Artemis.csproj", "{271D3070-4F70-4E17-8F63-7F2219BB12A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Debug|x64.Build.0 = Debug|Any CPU
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Release|x64.ActiveCfg = Release|Any CPU
+		{25EACC66-BA43-4848-B8FD-9D6F619E50C4}.Release|x64.Build.0 = Release|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Debug|x64.Build.0 = Debug|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Release|x64.ActiveCfg = Release|Any CPU
+		{656017BA-0D5C-4AE5-B1DE-2CFE199FF4C3}.Release|x64.Build.0 = Release|Any CPU
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Debug|x64.ActiveCfg = Debug|x64
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Debug|x64.Build.0 = Debug|x64
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Release|x64.ActiveCfg = Release|x64
+		{271D3070-4F70-4E17-8F63-7F2219BB12A4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24D1CD36-5CD6-4628-B495-F34AA0A45FE9}
+	EndGlobalSection
+EndGlobal

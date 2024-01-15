@@ -1,4 +1,4 @@
-﻿using StellarFx.App.LightFx;
+﻿using StellarFx.LightFx;
 using System.Text;
 
 namespace StellarFx.LightFx

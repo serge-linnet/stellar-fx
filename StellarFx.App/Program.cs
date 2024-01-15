@@ -1,5 +1,4 @@
-﻿using StellarFx.App.LightFx;
-using StellarFx.LightFx;
+﻿using StellarFx.LightFx;
 
 namespace StellarFx.App
 {
@@ -29,16 +28,12 @@ namespace StellarFx.App
 
                 var keyboardIdx = devices.First(d => d.Value == LFX_DeviceType.LFX_DEVTYPE_KEYBOARD).Key;
 
-                lightFx.Reset();
                 var rnd = new Random();
                 SetRndColor(lightFx, keyboardIdx, rnd, new[] { 0, 1, 23 });
                 SetRndColor(lightFx, keyboardIdx, rnd, new[] { 2, 10, 19 });
 
-                //MapLights(lightFx, keyboardIdx);
-                //lightFx.UpdateDefault();
-
-                //var version = lightFx.GetVersion();
-                //Console.WriteLine($"LightFX version: {version}.");
+                var version = lightFx.GetVersion();
+                Console.WriteLine($"LightFX version: {version}.");
 
             }
             catch (Exception ex)
@@ -65,29 +60,29 @@ namespace StellarFx.App
                     lightFx.SetLightColor(keyboardIdx, (ushort)light, color);
                 }
             }
-        }
 
-        static void MapLights(LightFxService lightFx, uint deviceIdx)
-        {
-            var numOfLights = lightFx.GetNumberOfLights(deviceIdx);
-            Console.WriteLine($"Number of lingths: {numOfLights}");
-
-            for (uint i = 0; i < numOfLights; i++)
+            static void MapLights(LightFxService lightFx, uint deviceIdx)
             {
-                var lightIdx = i;
-                var desc = lightFx.GetLightDescription(deviceIdx, lightIdx);
-                
-                var color = new LFX_Color
+                var numOfLights = lightFx.GetNumberOfLights(deviceIdx);
+                Console.WriteLine($"Number of lingths: {numOfLights}");
+
+                for (uint i = 0; i < numOfLights; i++)
                 {
-                    red = 00,
-                    green = 100,
-                    blue = 100,
-                    brightness = 255
-                };
+                    var lightIdx = i;
+                    var desc = lightFx.GetLightDescription(deviceIdx, lightIdx);
 
-                lightFx.SetLightColor(deviceIdx, lightIdx, color);
+                    var color = new LFX_Color
+                    {
+                        red = 00,
+                        green = 100,
+                        blue = 100,
+                        brightness = 255
+                    };
 
-                Console.WriteLine($"{lightIdx}: {desc}");
+                    lightFx.SetLightColor(deviceIdx, lightIdx, color);
+
+                    Console.WriteLine($"{lightIdx}: {desc}");
+                }
             }
         }
     }

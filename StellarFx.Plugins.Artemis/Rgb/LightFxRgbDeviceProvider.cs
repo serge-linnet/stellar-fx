@@ -1,5 +1,5 @@
 ﻿using RGB.NET.Core;
-using StellarFx.App.LightFx;
+using StellarFx.LightFx;
 using StellarFx.LightFx;
 
 namespace StellarFx.Plugins.Artemis

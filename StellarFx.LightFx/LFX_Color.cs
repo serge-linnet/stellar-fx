@@ -1,4 +1,4 @@
-﻿namespace StellarFx.App.LightFx
+﻿namespace StellarFx.LightFx
 {
     public struct LFX_Color
     {

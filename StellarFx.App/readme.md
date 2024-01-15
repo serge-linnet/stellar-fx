@@ -1,0 +1,1 @@
+﻿Console App for testing LightFX.dll wrapper.

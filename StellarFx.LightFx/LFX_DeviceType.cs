@@ -1,4 +1,4 @@
-﻿namespace StellarFx.App.LightFx
+﻿namespace StellarFx.LightFx
 {
     public enum LFX_DeviceType : ushort
     {

@@ -1,7 +1,6 @@
 ﻿using RGB.NET.Core;
-using StellarFx.App.LightFx;
 using StellarFx.LightFx;
-using System.Linq;
+using StellarFx.LightFx;
 
 namespace StellarFx.Plugins.Artemis
 {
@@ -34,38 +33,33 @@ namespace StellarFx.Plugins.Artemis
                 return false;
             }
 
-            try
-            {                
-                foreach (var item in dataSet)
-                {
-                    var ledId = item.Item1 as LedId?;
-                    if (!ledId.HasValue)
-                    {
-                        continue;
-                    }
-
-                    if (!KeyboardIdMapping.Default.ContainsKey(ledId.Value))
-                    {
-                        continue;
-                    }
-
-                    var lightIdx = KeyboardIdMapping.Default[ledId.Value];
-
-                    var colour = new LFX_Color
-                    {
-                        red = item.Item2.GetR(),
-                        green = item.Item2.GetG(),
-                        blue = item.Item2.GetB(),
-                        brightness = item.Item2.GetA()
-                    };
-
-                    _lightFx.SetLightColor(this.deviceIdx, (uint)lightIdx, colour);
-                }
-            }
-            catch (Exception)
+            foreach (var item in dataSet)
             {
-                throw;
+                var ledId = item.Item1 as LedId?;
+                if (!ledId.HasValue)
+                {
+                    continue;
+                }
+
+                if (!KeyboardIdMapping.Default.ContainsKey(ledId.Value))
+                {
+                    continue;
+                }
+
+                var lightIdx = KeyboardIdMapping.Default[ledId.Value];
+
+                var colour = new LFX_Color
+                {
+                    red = item.Item2.GetR(),
+                    green = item.Item2.GetG(),
+                    blue = item.Item2.GetB(),
+                    brightness = item.Item2.GetA()
+                };
+
+                _lightFx.SetLightColor(this.deviceIdx, (uint)lightIdx, colour);
             }
+
+            _lightFx.Update();
 
             return true;
         }

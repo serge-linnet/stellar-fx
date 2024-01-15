@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace StellarFx.App.LightFx
+namespace StellarFx.LightFx
 {
     internal static class LightFxSdk
     {

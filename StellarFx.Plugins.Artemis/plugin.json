@@ -6,7 +6,7 @@
   "Author": "https://github.com/serge-linnet",
   "Repository": "https://github.com/serge-linnet/stellar-fx",
   "Description": "LED control for Alienware M15 R7",
-  "Version": "0.2-test",
+  "Version": "0.1.1",
   "Main": "StellarFx.Plugins.Artemis.dll",
   "AutoEnableFeatures": false
 } 
